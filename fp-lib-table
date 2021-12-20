@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib.pretty)(options "")(descr ""))
   (lib (name user-footprints)(type KiCad)(uri ${KIPRJMOD}/library/user-footprints.pretty)(options "")(descr ""))
+  (lib (name CONN-TH_P5.00_KF301-5.0-2P)(type KiCad)(uri ${KIPRJMOD}/library/CONN-TH_P5.00_KF301-5.0-2P.pretty)(options "")(descr ""))
+  (lib (name CON-SOCJ-2155)(type KiCad)(uri ${KIPRJMOD}/library/CON-SOCJ-2155)(options "")(descr ""))
 )

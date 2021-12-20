@@ -647,19 +647,19 @@ U 1 1 61C475B4
 P 1700 950
 F 0 "J5" H 1780 942 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 1780 851 50  0000 L CNN
-F 2 "" H 1700 950 50  0001 C CNN
-F 3 "~" H 1700 950 50  0001 C CNN
+F 2 "CONN-TH_P5.00_KF301-5.0-2P:CONN-TH_P5.00_KF301-5.0-2P" H 1700 950 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Screw-terminal_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html" H 1700 950 50  0001 C CNN
 	1    1700 950 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack J2
+L Connector:Barrel_Jack_Switch J2
 U 1 1 61C4808D
 P 1650 1550
 F 0 "J2" H 1707 1875 50  0000 C CNN
 F 1 "Barrel_Jack" H 1707 1784 50  0000 C CNN
-F 2 "" H 1700 1510 50  0001 C CNN
-F 3 "~" H 1700 1510 50  0001 C CNN
+F 2 "CON-SOCJ-2155:GRAVITECH_CON-SOCJ-2155" H 1700 1510 50  0001 C CNN
+F 3 "~https://www.mouser.be/ProductDetail/Gravitech/CON-SOCJ-2155?qs=fkzBJ5HM%252BdCcpvFQyQZHtA%3D%3D" H 1700 1510 50  0001 C CNN
 	1    1650 1550
 	1    0    0    -1  
 $EndComp
@@ -676,7 +676,7 @@ Wire Wire Line
 Text Label 2250 1050 2    50   ~ 0
 IN-
 Wire Wire Line
-	1950 1650 2300 1650
+	1950 1650 2050 1650
 Text Label 2300 1650 2    50   ~ 0
 IN-
 Text Notes 700  750  0    50   ~ 0
@@ -908,4 +908,11 @@ F 3 "~" H 1800 10050 50  0001 C CNN
 	1    1800 10050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1550 2050 1550
+Wire Wire Line
+	2050 1550 2050 1650
+Connection ~ 2050 1650
+Wire Wire Line
+	2050 1650 2300 1650
 $EndSCHEMATC

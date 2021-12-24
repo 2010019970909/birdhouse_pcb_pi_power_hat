@@ -3,4 +3,5 @@
   (lib (name user-footprints)(type KiCad)(uri ${KIPRJMOD}/library/user-footprints.pretty)(options "")(descr ""))
   (lib (name CONN-TH_P5.00_KF301-5.0-2P)(type KiCad)(uri ${KIPRJMOD}/library/CONN-TH_P5.00_KF301-5.0-2P.pretty)(options "")(descr ""))
   (lib (name CON-SOCJ-2155)(type KiCad)(uri ${KIPRJMOD}/library/CON-SOCJ-2155)(options "")(descr ""))
+  (lib (name FUSE-TH_L10.4-W3.1-P5.10-D0.8-S1.50)(type KiCad)(uri ${KIPRJMOD}/library/FUSE-TH_L10.4-W3.1-P5.10-D0.8-S1.50.pretty)(options "")(descr ""))
 )
